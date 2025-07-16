@@ -3,7 +3,7 @@ import requests
 
 app = Flask(__name__)
 
-GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxqKVaJzr0xWgZCk_Awf1EqmpO3O6-I4d7gXXFJ3kch-vZ8Al9xl2uKdVcBuaUiHKCK/exec"
+GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbz2HlquO8CkiVI2DCnIf5gyr5IW29d8fUcpOfgAMhWp5mkGp_ZkJ4AyQVaU-P20X1sh/exec"
 
 @app.route('/forward', methods=['POST'])
 def forward():
