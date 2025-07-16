@@ -18,3 +18,7 @@ def forward():
 @app.route('/', methods=['GET'])
 def home():
     return "V-NET Gateway is running.", 200
+
+# ✅ REQUIRED: start Flask app for Render
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=10000)
